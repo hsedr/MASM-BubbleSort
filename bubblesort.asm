@@ -22,7 +22,7 @@ start_:
 		mov edi, 0			; number of times we checked our condition in succession 
 
 check_condition:				
-		add edi, 4			; incrementing number of checkings
+		add edi, 4			; incrementing number of checks
 		add ecx, 4			; incrementing index
 		cmp ecx, edx			; checking if we are at last index
 		jge	check_endCondition	; if true we check for ending conditions	
