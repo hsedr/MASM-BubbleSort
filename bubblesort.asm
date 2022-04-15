@@ -9,7 +9,7 @@ ExitProcess proto,deExitCode:dword
 
 .data
 
-	list dd 3, 7, 8, 10, 12, 13, 14, 17, 18, 20
+	list dd -2, -6, -7, 20, 24, -12, 10, 7, -25, -22, -14, 9, 1, 18, -8
 	;listLen	equ $ - list
 	
 .code
